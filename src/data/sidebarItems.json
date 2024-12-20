@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "danger": false,
+        "icon_path": "./home.png",
+        "title": "Repositories"
+    },
+    {
+        "id": 2,
+        "danger": false,
+        "icon_path": "./code.png",
+        "title": "Ai Cloud Review"
+    },
+    {
+        "id": 3,
+        "danger": false,
+        "icon_path": "./book.png",
+        "title": "How to use"
+    },
+    {
+        "id": 4,
+        "danger": false,
+        "icon_path": "./gear.png",
+        "title": "Settings"
+    }
+]

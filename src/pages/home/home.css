@@ -1,0 +1,251 @@
+.home-root {
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+}
+
+.home-sidebar {
+	width: 15%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    position: relative;
+}
+
+.home-body {
+	width: 85%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+
+.repo-container {
+	width: 95%;
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+    border: 1px solid #E9EAEB;
+	border-radius: 10px;
+}
+
+.repo-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem 0;
+	width: 100%;
+	height: 10%;
+}
+
+.header-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 2rem;
+	width: 20%;
+	height: 100%;
+}
+
+.header-info > .main {
+	font-size: 30px;
+	color: #181d27;
+}
+
+.header-buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 2rem;
+	height: 100%;
+}
+
+.header-buttons > button {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 10px 20px;
+	outline: none;
+	margin: 0 0.5rem;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+}
+
+.header-button > img {
+	margin-right: 10px;
+}
+
+.header-button:first-of-type {
+	background-color: #fff;
+	color: #414651;
+	border: 1px solid #d5d7da;
+}
+
+.search-bar {
+	display: flex;
+	position: relative;
+	width: 40%;
+	margin: 0 2rem;
+}
+
+.search-bar > img {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	color: #414651;
+	transform: translateY(-50%);
+}
+
+.search-bar > input {
+	width: 80%;
+	padding: 1rem 2.5rem;
+	border-radius: 5px;
+	border: 1px solid #d5d7da;
+	outline: none;
+	font-size: 16px;
+}
+
+.repo-list {
+	margin: 1rem 0;
+	display: flex;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	flex-direction: column;
+	width: 100%;
+	height: 90%;
+	overflow-y: auto;
+}
+
+.repo-card {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 1rem 0;
+	background-color: #fff;
+    border: 1px solid #D5D7DA;
+}
+
+.repo-card:hover {
+    background-color: #F5F5F5;
+}
+
+.repo-name {
+    margin: 0 2rem;
+	display: flex;
+	align-items: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.repo-name > .privacy-area {
+	margin: 1rem;
+	padding: 5px 7px;
+	border-radius: 10px;
+	color: #175cd3;
+	font-weight: 400;
+	background-color: #eff8ff;
+	border: 1px solid #b2ddff;
+}
+
+.repo-info-container {
+	display: flex;
+	align-items: center;
+	margin: 1rem 2rem;
+}
+
+.repo-info {
+	display: flex;
+	align-items: center;
+	margin-right: 1.5rem;
+}
+
+.repo-info > img {
+	margin: 0 5px;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+}
+
+.sidebar-header > p {
+    color: #181D27;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.sidebar-logo > img {
+    width: 28px;
+    height: 32px;
+    margin: 1rem;
+}
+
+.sidebar-select {
+    width: 80%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #D8DAE5;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    width: 80%;
+}
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    width: 80%;
+    position: absolute;
+    bottom: 5px;
+}
+
+.sidebar-footer > .sidebar-item {
+    justify-content: center;
+}
+
+.sidebar-item {
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.sidebar-item > p {
+    font-weight: 600;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #414651;
+}
+
+.sidebar-item > img {
+    color: white;
+    margin-right: 10px;
+}

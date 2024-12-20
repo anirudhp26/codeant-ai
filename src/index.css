@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.active {
+    color: #fff;
+    background-color: #0049C6;
+}
+
+.text-large {
+    font-size: 20px;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.text-light {
+	font-weight: lighter;
+}
+
+.text-gray {
+	color: #747373;
+}
+
+.text-dark {
+    color: #171717;
+}
+
+.text-blue {
+    color: #0049C6;
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Github",
+        "icon": "github",
+        "type": "saas",
+        "url": "./github.png"
+    },
+    {
+        "id": 2,
+        "name": "Azure",
+        "icon": "azure",
+        "type": "saas",
+        "url": "./azure.png"
+    },
+    {
+        "id": 3,
+        "name": "Bitbucket",
+        "icon": "bitbucket",
+        "type": "saas",
+        "url": "./bitbucket.png"
+    },
+    {
+        "id": 4,
+        "name": "Gitlab",
+        "icon": "gitlab",
+        "type": "self",
+        "url": "./gitlab.png"
+    },
+    {
+        "id": 5,
+        "name": "SSO",
+        "icon": "sso",
+        "type": "self",
+        "url": "./sso.png"
+    }
+]
